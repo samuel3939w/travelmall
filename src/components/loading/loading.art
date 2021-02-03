@@ -1,0 +1,6 @@
+<div class="loading">
+    <div class="loading-indocator">
+        <img src="./loading.gif" alt="loading">
+    </div>
+    <div class="loading-text">加載中......</div>
+</div>

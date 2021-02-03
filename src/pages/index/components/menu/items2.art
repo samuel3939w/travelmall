@@ -1,0 +1,96 @@
+<div class="menu" data-n="hot">
+  <div class="menu_inn">
+    {{if type=="hot"}}
+    <dl>
+      {{each data}}
+      <dt>{{$value.title}}</dt>
+      <dd>
+        {{each $value.cities}}
+        <a href="#">{{$value.text}}</a>
+        {{/each}}
+      </dd>
+      {{/each}}
+    </dl>
+    {{/if}}
+  </div>
+</div>
+<div class="menu" data-n="hk">
+  <div class="menu_inn">
+    {{if type=="hk"}}
+    <dl>
+      {{each data}}
+      <dt>{{$value.title}}</dt>
+      <dd>
+        {{each $value.cities}}
+        <a href="#">{{$value.text}}</a>
+        {{/each}}
+      </dd>
+      {{/each}}
+    </dl>
+    {{/if}}
+  </div>
+</div>
+<div class="menu" data-n="japan">
+  <div class="menu_inn">
+    {{if type=="japan"}}
+    <dl>
+      {{each data}}
+      <dt>{{$value.title}}</dt>
+      <dd>
+        {{each $value.cities}}
+        <a href="#">{{$value.text}}</a>
+        {{/each}}
+      </dd>
+      {{/each}}
+    </dl>
+    {{/if}}
+  </div>
+</div>
+<div class="menu" data-n="asia">
+  <div class="menu_inn">
+    {{if type=="asia"}}
+    <dl>
+      {{each data}}
+      <dt>{{$value.title}}</dt>
+      <dd>
+        {{each $value.cities}}
+        <a href="#">{{$value.text}}</a>
+        {{/each}}
+      </dd>
+      {{/each}}
+    </dl>
+    {{/if}}
+  </div>
+</div>
+<div class="menu" data-n="eu">
+  <div class="menu_inn">
+    {{if type=="eu"}}
+    <dl>
+      {{each data}}
+      <dt>{{$value.title}}</dt>
+      <dd>
+        {{each $value.cities}}
+        <a href="#">{{$value.text}}</a>
+        {{/each}}
+      </dd>
+      {{/each}}
+    </dl>
+    {{/if}}
+  </div>
+</div>
+<div class="menu" data-n="au">
+  <div class="menu_inn">
+    {{if type=="au"}}
+    <dl>
+      {{each data}}
+      <dt>{{$value.title}}</dt>
+      <dd>
+        {{each $value.cities}}
+        <a href="#">{{$value.text}}</a>
+        {{/each}}
+      </dd>
+      {{/each}}
+    </dl>
+    {{/if}}
+  </div>
+</div>

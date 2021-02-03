@@ -1,0 +1,3 @@
+<ul class="bd">
+  {{include '../../../../components/loading/loading.art'}}
+</ul>
